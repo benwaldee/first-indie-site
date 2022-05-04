@@ -69,8 +69,42 @@ form {
 
 .pf {
     display: grid;
-    grid-template: repeat(10 1fr)/repeat(10 1fr);
+    grid-template: repeat(10, 1fr)/repeat(10, 1fr);
     height: 1000px;
     width: 1000px;
     background-color: #668eB9;
+}
+
+.startCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+
+    width: 1000px;
+
+}
+
+.startElement {}
+
+.square {
+    background-color: #337d58;
+    color: #337d58;
+    transition-property: background-color, color;
+    transition-duration: 0.25s;
+    transition-delay: 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+.square:hover {
+    background-color: #FF8800;
+    color: black;
 }
