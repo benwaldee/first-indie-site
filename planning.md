@@ -32,6 +32,7 @@
             correct nav is listed on that image
         ? page #FF5000
             prize - maybe scoreborad if i know how to do that
+            jk gonna just put an image of a cake ive invested too much time into this
 
 
 

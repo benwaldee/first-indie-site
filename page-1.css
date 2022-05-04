@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .navLinks {
@@ -46,4 +47,8 @@ body {
 h1,
 h2 {
     text-decoration: underline;
+}
+
+.page1 {
+    background-color: #FF8800;
 }
