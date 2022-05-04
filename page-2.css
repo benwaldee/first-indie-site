@@ -1,0 +1,76 @@
+* {
+    font-family: ProximaNova, system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    background-color: #ADD8E6;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar {
+    background-color: #668eB9;
+    height: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    color: black;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 20px;
+    text-align: center;
+}
+
+.labels {
+
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.inputElements {
+    width: 70px;
+    height: 30px;
+
+}
+
+.inputs {
+
+    display: flex;
+    justify-content: center;
+}
+
+.checkLabel {
+    padding-bottom: 0px;
+
+}
+
+.pfCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.pf {
+    display: grid;
+    grid-template: repeat(10 1fr)/repeat(10 1fr);
+    height: 1000px;
+    width: 1000px;
+    background-color: #668eB9;
+}
